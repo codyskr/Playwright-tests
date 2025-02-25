@@ -17,5 +17,7 @@ jobs:
         run: sudo apt-get install google-chrome-stable
       - name: install dependencies
         run: pip install -r requirements.txt
+      - name: playwright install
+        run: playwright install
       - name: playwright
         run: pytest
