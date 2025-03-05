@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright, expect
 import config
 import os
 
-# Тест-кейс 1: Проверка заголовка главной страницы
+# Тест-кейс 1: Проверка заголовка главной страницы.
 
 def test_homepage_title():
     # Запускаем Playwright в синхронном режиме с настройкой UI из config
